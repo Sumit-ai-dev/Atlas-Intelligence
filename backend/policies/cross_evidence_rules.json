@@ -1,0 +1,140 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "rule_count": 8,
+    "description": "Deterministic cross-evidence correlation rules. All 8 rules evaluate against live evidence values — no domain logic in Python. To add a rule: increment rule_count, assign a unique rule_id, and restart (policy_loader validates at startup)."
+  },
+  "rules": [
+    {
+      "rule_id": "R1",
+      "title": "Ghost Billing Cluster",
+      "conditions": {
+        "satellite_status": ["GHOST_ALERT"],
+        "dpr_risk_level":   ["HIGH_RISK"]
+      },
+      "severity":   "HIGH",
+      "confidence": "HIGH",
+      "narrative":  "Satellite observations contradict reported progress AND DPR risk analysis flags critical violations — consistent with ghost billing pattern.",
+      "evidence_sources": ["satellite", "dpr"],
+      "recommendations": [
+        "Freeze all milestone disbursements immediately.",
+        "Initiate physical site inspection within 48 hours.",
+        "Refer discrepancy to CVC for fraud investigation."
+      ]
+    },
+    {
+      "rule_id": "R2",
+      "title": "Evidence Integrity Risk",
+      "conditions": {
+        "forensics_tampering_detected": true,
+        "satellite_status": ["GHOST_ALERT"]
+      },
+      "severity":   "HIGH",
+      "confidence": "HIGH",
+      "narrative":  "Submitted site photographs show signs of manipulation while satellite independently records no significant progress — high manipulation risk.",
+      "evidence_sources": ["forensics", "satellite"],
+      "recommendations": [
+        "Confiscate original, unedited site photographs.",
+        "Issue legal notice under IPC Section 471.",
+        "Reduce NCRI score by 50 points immediately."
+      ]
+    },
+    {
+      "rule_id": "R3",
+      "title": "Safety-Progress Mismatch",
+      "conditions": {
+        "ppe_compliance_pct_below":      60,
+        "satellite_activity_pct_below":  20
+      },
+      "severity":   "MEDIUM",
+      "confidence": "MEDIUM",
+      "narrative":  "Low safety compliance observed alongside minimal satellite-verified activity suggests site is underperforming on both safety and execution dimensions.",
+      "evidence_sources": ["ppe", "satellite"],
+      "recommendations": [
+        "Issue PPE show-cause notice under IS:7969.",
+        "Request revised milestone schedule from contractor."
+      ]
+    },
+    {
+      "rule_id": "R4",
+      "title": "Triple Convergence — Maximum Severity",
+      "conditions": {
+        "requires_rules": ["R1", "R2"]
+      },
+      "severity":   "HIGH",
+      "confidence": "HIGH",
+      "narrative":  "Three independent evidence streams (satellite, DPR intelligence, forensics) converge on a high-risk signal — consistent with systematic fraud.",
+      "evidence_sources": ["satellite", "dpr", "forensics"],
+      "recommendations": [
+        "Escalate immediately to Ministry-level oversight.",
+        "Initiate police/CBI referral under IPC Section 420.",
+        "Suspend all ongoing project disbursements."
+      ]
+    },
+    {
+      "rule_id": "R5",
+      "title": "DPR Inflation without Satellite Evidence",
+      "conditions": {
+        "dpr_risk_level":   ["HIGH_RISK"],
+        "satellite_status": ["NORMAL", "UNREPORTED_PROGRESS"]
+      },
+      "severity":   "MEDIUM",
+      "confidence": "MEDIUM",
+      "narrative":  "DPR analysis flags high-risk violations but satellite shows normal activity levels — possible documentation irregularity without physical impact yet.",
+      "evidence_sources": ["dpr", "satellite"],
+      "recommendations": [
+        "Request original approval certificates for flagged violations.",
+        "Schedule DPR documentation audit within 30 days."
+      ]
+    },
+    {
+      "rule_id": "R6",
+      "title": "Forensics Tampering without Corroboration",
+      "conditions": {
+        "forensics_tampering_detected": true,
+        "satellite_status": ["NORMAL", "AWAITING_DPR", "AWAITING_SCAN"]
+      },
+      "severity":   "MEDIUM",
+      "confidence": "LOW",
+      "narrative":  "Site photographs indicate possible manipulation but satellite data does not independently confirm a discrepancy. Further investigation required.",
+      "evidence_sources": ["forensics"],
+      "recommendations": [
+        "Request unedited, time-stamped originals from site camera system.",
+        "Do not release milestone payment until originals are verified."
+      ]
+    },
+    {
+      "rule_id": "R7",
+      "title": "Safety Crisis during Active Construction",
+      "conditions": {
+        "ppe_compliance_pct_below": 40,
+        "satellite_status": ["LAG_WARNING", "GHOST_ALERT"]
+      },
+      "severity":   "HIGH",
+      "confidence": "MEDIUM",
+      "narrative":  "Critical safety non-compliance is occurring concurrently with schedule lag or progress fraud — workers may be at risk while documentation irregularities are concealed.",
+      "evidence_sources": ["ppe", "satellite"],
+      "recommendations": [
+        "Issue emergency stop-work advisory pending safety audit.",
+        "Deduct financial penalty under Clause 14A.",
+        "Conduct joint CPWD + Labour Ministry site inspection."
+      ]
+    },
+    {
+      "rule_id": "R8",
+      "title": "Lagging Progress — Documentation Only",
+      "conditions": {
+        "satellite_status": ["LAG_WARNING"],
+        "dpr_risk_level":   ["LOW_RISK"]
+      },
+      "severity":   "LOW",
+      "confidence": "MEDIUM",
+      "narrative":  "Satellite indicates progress lag but DPR intelligence finds no critical violations — may indicate legitimate execution delay rather than fraud.",
+      "evidence_sources": ["satellite", "dpr"],
+      "recommendations": [
+        "Request revised schedule from contractor within 7 days.",
+        "Monitor next satellite cycle before escalating."
+      ]
+    }
+  ]
+}

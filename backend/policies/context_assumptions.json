@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "effective_date": "2026-01-01",
+    "source": [
+      "RBI Annual Report 2025 — CPI-Construction 5-year average (6.0% p.a.)",
+      "MoRTH Material Cost Index Circular No. RT-11040/7/2023-H dated 15 Jan 2024 (4.0% p.a.)",
+      "Ministry of Labour CLRI Annual Report 2024 — Construction Labour Rate Escalation (5.0% p.a.)"
+    ],
+    "description": "Economic assumptions for DPR context adjustment. Rates must be reviewed annually. Update effective_date and version on each review cycle."
+  },
+  "cpi_annual_rate": 0.06,
+  "material_escalation_rate": 0.04,
+  "labour_escalation_rate": 0.05,
+  "tolerance_bands": {
+    "LOW":    { "min_pct": -5,  "max_pct": 5  },
+    "MEDIUM": { "min_pct": -15, "max_pct": 15 },
+    "HIGH":   { "min_pct": -99, "max_pct": -16 }
+  },
+  "context_note_template": "Original DPR filed {months_elapsed} months ago. Adjusted for {escalation_pct}% cost escalation (CPI-Construction). Expectation envelope: +/-{tolerance}%."
+}

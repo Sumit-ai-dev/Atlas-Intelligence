@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "base_score": 100,
+    "description": "NCRI scoring configuration. Extracted verbatim from ncri_engine.py DEDUCTIONS, _ELIGIBILITY_TIERS, and _RECOMMENDED_ACTIONS. All values are identical to the original Python constants."
+  },
+  "deductions": {
+    "IMAGE_TAMPERING":  -50,
+    "GHOST_ALERT":      -40,
+    "LAG_WARNING":      -20,
+    "SAFETY_VIOLATION": -10
+  },
+  "recommended_actions": {
+    "IMAGE_TAMPERING":  "INITIATE_BLACKLIST_REVIEW",
+    "GHOST_ALERT":      "FREEZE_DISBURSEMENT",
+    "LAG_WARNING":      "ISSUE_SHOW_CAUSE_NOTICE",
+    "SAFETY_VIOLATION": "ESCALATE_PHYSICAL_AUDIT"
+  },
+  "eligibility_tiers": [
+    {
+      "min_score": 90,
+      "tier":      "A",
+      "status":    "FULLY ELIGIBLE",
+      "color":     "#16a34a",
+      "badge_bg":  "#dcfce7",
+      "description": "Contractor is fully compliant and eligible for all public infrastructure tenders under CPWD guidelines."
+    },
+    {
+      "min_score": 80,
+      "tier":      "B",
+      "status":    "UNDER ACTIVE WATCH",
+      "color":     "#d97706",
+      "badge_bg":  "#fef3c7",
+      "description": "Minor compliance gaps detected. Contractor is under government surveillance. Corrective action required within 30 days."
+    },
+    {
+      "min_score": 60,
+      "tier":      "C",
+      "status":    "PROBATION / DISBURSEMENT FROZEN",
+      "color":     "#dc2626",
+      "badge_bg":  "#fee2e2",
+      "description": "Active violations recorded. All milestone disbursements are frozen pending physical site audit. Fines apply per Clause 14A."
+    },
+    {
+      "min_score": 0,
+      "tier":      "F",
+      "status":    "BLACKLISTED & BANNED",
+      "color":     "#fca5a5",
+      "badge_bg":  "#7f1d1d",
+      "description": "Contractor is debarred from all public infrastructure bidding for 3 years. Legal action initiated under IPC Section 471 (evidence tampering)."
+    }
+  ]
+}

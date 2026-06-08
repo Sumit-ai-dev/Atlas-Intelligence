@@ -1,0 +1,306 @@
+INFO:     Will watch for changes in these directories: ['/Users/sumitdas/Desktop/InfraAI/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [76724] using WatchFiles
+[agent] SKIP_LLM=1 set — skipping Mistral load. Template engine active.
+INFO:     Started server process [76739]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[agent] SKIP_LLM=1 set — skipping Mistral load. Template engine active.
+INFO:     127.0.0.1:52545 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52545 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52547 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52548 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.841411065626842 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52549 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.3792965817819064 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52548 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.3918040730481567 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52549 - "GET /sat/PRJ-NMA_transitions.png?v=0.6082894060437137 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52550 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.4076453630019574 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52551 - "GET /sat/PRJ-NMA_transitions.png?v=0.307079742067656 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52552 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.5816691418631141 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52553 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.8909094941730875 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52547 - "GET /projects/PRJ-DHL/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52553 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.9517913164071493 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52548 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.29273524639393667 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52551 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.40910812872558444 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52549 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.9743402511937046 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52555 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.9011476126068884 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52554 - "GET /sat/PRJ-DHL_transitions.png?v=0.7472677359366238 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52555 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.29954420508116497 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52547 - "GET /projects/PRJ-DME/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52548 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.5502618117325514 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52551 - "GET /sat/PRJ-DHL_transitions.png?v=0.4677826825893183 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52549 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.563074422378911 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52554 - "GET /sat/PRJ-DME_transitions.png?v=0.11674300406289406 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52553 - "GET /sat/PRJ-DME_rgb_current.png?v=0.9353303755040687 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52556 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.521431544801244 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52547 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /projects/PRJ-DHL/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52556 - "GET /sat/PRJ-DME_rgb_current.png?v=0.6969606594359871 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52548 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.7048821921931456 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52554 - "GET /sat/PRJ-DHL_transitions.png?v=0.39245472198645515 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52557 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.12213137832711962 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52558 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.05017054039984292 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52547 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52557 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.5980830118268021 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52556 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.1804595607481968 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52548 - "GET /sat/PRJ-DHL_transitions.png?v=0.47112043233471856 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52554 - "GET /sat/PRJ-NMA_transitions.png?v=0.10820367829596877 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52559 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.7561949214561838 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52560 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.9515927794339154 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52547 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52546 - "GET /projects/PRJ-DHL/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52557 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.5686927633724926 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52559 - "GET /sat/PRJ-NMA_transitions.png?v=0.03953044198885369 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52556 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.9165493573157406 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52563 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.30482967382734083 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52554 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.6925507555683309 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52564 - "GET /sat/PRJ-DHL_transitions.png?v=0.731433419205049 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52556 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.5135097416890292 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52564 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.5231405174923736 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52564 - "GET /sat/PRJ-DHL_transitions.png?v=0.8141348194594912 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52569 - "POST /scan-dpr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52624 - "POST /scan-dpr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52639 - "POST /scan-dpr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52668 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.4913544015443567 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52667 - "GET /sat/PRJ-DHL_transitions.png?v=0.009589396375297099 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52669 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.7946784355464078 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52669 - "GET /sat/PRJ-DHL_transitions.png?v=0.1410060935450933 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52675 - "POST /scan-dpr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52692 - "POST /scan-dpr HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52705 - "GET /sat/PRJ-DHL_transitions.png?v=0.5568711387849739 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52705 - "GET /sat/PRJ-DHL_transitions.png?v=0.7259696889150926 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52705 - "GET /sat/PRJ-DHL_transitions.png?v=0.9311634885083759 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52709 - "GET /sat/PRJ-DHL_transitions.png?v=0.6980745464219219 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52709 - "GET /sat/PRJ-DHL_transitions.png?v=0.5400470886626982 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52709 - "GET /sat/PRJ-DHL_transitions.png?v=0.0406556708419239 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52712 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.43664429406426897 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52713 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.7880030933848694 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52714 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52715 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52712 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.14203607147556185 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52709 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.5540135603268462 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52717 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.7497456269284827 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52716 - "GET /sat/PRJ-DHL_transitions.png?v=0.35764321285418643 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52718 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.175116465428378 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /sat/PRJ-NMA_transitions.png?v=0.7431238968824551 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52720 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.07432938511215914 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52719 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.21011709485400343 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52723 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.6760996259176403 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52722 - "GET /sat/PRJ-NMA_ndvi_baseline.png?v=0.6378776448758602 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /sat/PRJ-NMA_ndvi_current.png?v=0.7995215273538139 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52724 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.4472631916649422 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52724 - "GET /sat/PRJ-NMA_landcover_baseline.png?v=0.6544197222288951 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52723 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.5602862745418824 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52722 - "GET /sat/PRJ-NMA_landcover_current.png?v=0.2915191909918361 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.05118338386529975 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /sat/PRJ-NMA_transitions.png?v=0.6771587727082414 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52723 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.849033565342537 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52722 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.6856279584512849 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52722 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.5676797492383349 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52723 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.29325520265393545 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52727 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52728 - "GET /projects/PRJ-DHL/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52729 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.4824779224195088 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52721 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.3311685833540041 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52723 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.5112782960962502 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52722 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.22625498970734859 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52730 - "GET /sat/PRJ-DHL_transitions.png?v=0.44985493776726837 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52730 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.14880060773789905 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52722 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.4369182358210385 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52735 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52736 - "GET /projects/PRJ-DME/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52738 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.7427641314834301 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52739 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.016948732719249238 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52740 - "GET /sat/PRJ-DHL_rgb_baseline.png?v=0.3634641473289051 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /sat/PRJ-DHL_rgb_current.png?v=0.06049819464920636 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52743 - "GET /sat/PRJ-DME_transitions.png?v=0.37804882497664305 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52738 - "GET /sat/PRJ-DME_rgb_current.png?v=0.6978574243959597 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52741 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.9341800275957289 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52753 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.00013485507742305725 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52750 - "GET /sat/PRJ-DME_landcover_current.png?v=0.3198934391518633 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52751 - "GET /sat/PRJ-DME_landcover_baseline.png?v=0.5614906223275422 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52752 - "GET /sat/PRJ-DME_rgb_current.png?v=0.016525074616479563 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52750 - "GET /sat/PRJ-DME_rgb_current.png?v=0.7844140622078584 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52753 - "GET /sat/PRJ-DME_ndvi_current.png?v=0.5546525243977902 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52751 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.7747960983366261 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52752 - "GET /sat/PRJ-DME_ndvi_baseline.png?v=0.7587515110739083 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52753 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.0575404148237888 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52750 - "GET /sat/PRJ-DME_rgb_current.png?v=0.2707017438961987 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52756 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52757 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52753 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.21008865624558204 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52751 - "GET /sat/PRJ-DME_rgb_current.png?v=0.6739910173053902 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52752 - "GET /sat/PRJ-DME_rgb_baseline.png?v=0.970064735303956 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52750 - "GET /sat/PRJ-DME_rgb_current.png?v=0.009926800353443732 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52758 - "GET /sat/PRJ-NMA_transitions.png?v=0.7760178807739607 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52759 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.46876045332713545 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52758 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.8274525062350062 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52762 - "GET /sat/PRJ-NMA_transitions.png?v=0.03075238551607251 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52762 - "GET /sat/PRJ-NMA_transitions.png?v=0.6343357502386862 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52762 - "GET /sat/PRJ-NMA_transitions.png?v=0.12153680062130989 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52765 - "GET /tenders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52766 - "GET /tenders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52766 - "GET /tenders/TND-MCR2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52765 - "GET /tenders/TND-MCR2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52767 - "GET /tenders/TND-DRR7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52768 - "GET /tenders/TND-DRR7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52771 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52772 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52771 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52773 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52772 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52773 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52774 - "GET /sat/PRJ-NMA_transitions.png?v=0.9628156156790517 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52774 - "GET /sat/PRJ-NMA_transitions.png?v=0.37691371929364825 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52774 - "GET /sat/PRJ-NMA_transitions.png?v=0.7891615499762596 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59857 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59859 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59859 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59857 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59859 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59860 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59862 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.22569346771057464 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59861 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.6088598839506801 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59861 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.7373834876867654 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59862 - "GET /sat/PRJ-NMA_transitions.png?v=0.25997684662007214 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59863 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.1609795651103607 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59865 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.09656007189673943 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59866 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.3680598921768623 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59864 - "GET /sat/PRJ-NMA_transitions.png?v=0.6486589110007184 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59866 - "GET /sat/PRJ-NMA_transitions.png?v=0.07540957555313843 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'main.py', 'api_server.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [76739]
+WARNING:  WatchFiles detected changes in 'api_server.py'. Reloading...
+INFO:     Started server process [87617]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87617]
+INFO:     Started server process [87636]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[agent] SKIP_LLM=1 set — skipping Mistral load. Template engine active.
+INFO:     127.0.0.1:62231 - "GET /dpr/PRJ-NMA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62256 - "GET /dpr/PRJ-NMA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62257 - "GET /dpr/PRJ-NMA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62258 - "GET /dpr/PRJ-NMA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62233 - "GET /sat/PRJ-NMA_transitions.png?v=0.8805475786072942 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62235 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.4978048363497254 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62234 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.916342448245517 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62246 - "GET /sat/PRJ-NMA_transitions.png?v=0.19620590500753465 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62235 - "GET /sat/PRJ-NMA_transitions.png?v=0.12342234585736156 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62893 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.6627232452805442 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62894 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.7484227695823791 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'test_all_dprs.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [87636]
+INFO:     Started server process [78361]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'test_all_dprs.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78361]
+WARNING:  WatchFiles detected changes in 'osint_scraper.py', 'violations_schema.py', 'test_xgboost.py', 'test_api.py', 'train_model.py', 'api_server.py', 'rag_engine.py', 'test_real_dpr.py', 'predict_xgboost.py', 'test_all_dprs.py'. Reloading...
+INFO:     Started server process [78426]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78426]
+WARNING:  WatchFiles detected changes in 'violations_schema.py', 'ncri_engine.py', 'report_generator.py', 'main.py', 'test_phase6.py', 'osint_scraper.py', 'agent.py', 'test_phase4.py', 'gstin_verifier.py', 'investigation_engine.py', 'test_api.py', 'train_model.py', 'test_phase5.py', 'api_server.py', 'rag_engine.py', 'policy_loader.py', 'test_all_dprs.py', 'cross_evidence.py', 'unified_risk.py', 'satellite.py', 'test_real_dpr.py', 'context_adjustment.py', 'predict_xgboost.py', 'governance.py', 'bidding_engine.py', 'test_xgboost.py', 'orchestrator.py', 'digital_twin.py'. Reloading...
+INFO:     Started server process [78461]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [78461]
+INFO:     Started server process [78472]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[agent] SKIP_LLM=1 set — skipping Mistral load. Template engine active.
+[policy_loader] All policies loaded and validated OK. 3 projects, 8 cross-evidence rules. DPR violations/investigation groups deferred to Phase 6.
+
+----------------------------------------------
+Atlas Assurance — Runtime Diagnostics
+----------------------------------------------
+Active Interpreter:            /Users/sumitdas/Desktop/InfraAI/backend/venv/bin/python3
+Python Version:                3.13.9
+DPR Engine:                    READY
+Satellite Engine:              READY
+NCRI Engine:                   READY
+Policy Loader:                 READY
+Projects Loaded:               3
+Cross-Evidence Rules Loaded:   8
+----------------------------------------------
+
+INFO:     127.0.0.1:59409 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59411 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /projects/PRJ-NMA/cycles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59409 - "GET /projects/PRJ-NMA/cycles/latest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59411 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59413 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /projects/PRJ-NMA/cycles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /projects/PRJ-NMA/cycles/latest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59415 - "GET /sat/PRJ-NMA_transitions.png?v=0.3699451479751408 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59413 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59409 - "GET /projects/PRJ-DHL/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /projects/PRJ-DHL/cycles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /projects/PRJ-DHL/cycles/latest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59415 - "GET /sat/PRJ-NMA_transitions.png?v=0.3731557603930924 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /sat/PRJ-NMA_transitions.png?v=0.7466168057513217 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /sat/PRJ-DHL_transitions.png?v=0.8457189620849828 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59413 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59409 - "GET /projects/PRJ-DME/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59419 - "GET /sat/PRJ-DHL_transitions.png?v=0.19584032123526796 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /projects/PRJ-DME/cycles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /projects/PRJ-DME/cycles/latest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59420 - "GET /sat/PRJ-DHL_transitions.png?v=0.4870721223742861 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59420 - "GET /sat/PRJ-DME_transitions.png?v=0.3241402576511231 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59413 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59409 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59412 - "GET /projects/PRJ-NMA/cycles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59410 - "GET /projects/PRJ-NMA/cycles/latest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59420 - "GET /sat/PRJ-DME_transitions.png?v=0.5271192245199359 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /sat/PRJ-DME_transitions.png?v=0.48090000731809424 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /sat/PRJ-NMA_transitions.png?v=0.5289489295225092 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59421 - "GET /sat/PRJ-NMA_transitions.png?v=0.2926255366210475 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59425 - "GET /sat/PRJ-NMA_rgb_current.png?v=0.32510291093654586 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59426 - "GET /sat/PRJ-NMA_rgb_baseline.png?v=0.9832037236336146 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /sat/PRJ-NMA_transitions.png?v=0.5758214624709506 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /sat/PRJ-NMA_transitions.png?v=0.7458011293601883 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /sat/PRJ-NMA_transitions.png?v=0.5009126663152573 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59428 - "GET /sat/PRJ-NMA_transitions.png?v=0.5954919660534264 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59429 - "GET /tenders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59430 - "GET /tenders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59430 - "GET /tenders/TND-MCR2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59429 - "GET /tenders/TND-MCR2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59436 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59437 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59434 - "GET /projects/PRJ-NMA/cycles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /projects/PRJ-NMA/ncri HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59435 - "GET /projects/PRJ-NMA/cycles/latest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59436 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59437 - "GET /satellite-alerts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59438 - "GET /projects/PRJ-NMA/cycles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59433 - "GET /projects/PRJ-NMA/cycles/latest HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59439 - "GET /sat/PRJ-NMA_transitions.png?v=0.4845112813582635 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59439 - "GET /sat/PRJ-NMA_transitions.png?v=0.7516722685918049 HTTP/1.1" 200 OK

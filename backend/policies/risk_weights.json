@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "last_updated": "2026-06-13",
+    "methodology": "Expert-defined initial assurance weights for MVP. Weights reflect relative evidence reliability: DPR (35%) and Satellite (30%) are the primary independent evidence streams; they provide documentary and physical ground-truth respectively. Cross-evidence synthesis (20%) amplifies convergent signals across streams. Forensics (10%) is a supporting signal — strong when present, absent when no image submitted. PPE (5%) is a site-safety signal that contextualises execution quality. These weights are configurable and intended to evolve through empirical calibration as more assurance cycles accumulate.",
+    "description": "Unified risk aggregation component weights and score band definitions. All weights must sum to 1.0 (validated at startup)."
+  },
+  "component_weights": {
+    "dpr_rejection_probability": 0.35,
+    "satellite_discrepancy":     0.30,
+    "cross_evidence_severity":   0.20,
+    "forensics_tampering":       0.10,
+    "ppe_noncompliance":         0.05
+  },
+  "score_bands": {
+    "LOW":      { "min": 0,  "max": 30  },
+    "MEDIUM":   { "min": 31, "max": 60  },
+    "HIGH":     { "min": 61, "max": 85  },
+    "CRITICAL": { "min": 86, "max": 100 }
+  },
+  "severity_scores": {
+    "satellite_status": {
+      "GHOST_ALERT":          100,
+      "LAG_WARNING":           60,
+      "UNREPORTED_PROGRESS":   30,
+      "NORMAL":                 0,
+      "AWAITING_DPR":           0,
+      "AWAITING_SCAN":          0
+    },
+    "cross_evidence_severity": {
+      "HIGH":   100,
+      "MEDIUM":  60,
+      "LOW":     20
+    }
+  }
+}

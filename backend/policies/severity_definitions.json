@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "Severity badge metadata and classification thresholds. Extracted from ncri_engine.py SEVERITY_META and classify_*_severity() functions. Values are identical to original Python constants."
+  },
+  "badges": {
+    "LOW": {
+      "label":    "LOW",
+      "color":    "#16a34a",
+      "bg":       "#dcfce7",
+      "dot":      "#4ade80",
+      "priority": "0"
+    },
+    "MODERATE": {
+      "label":    "MODERATE",
+      "color":    "#d97706",
+      "bg":       "#fef3c7",
+      "dot":      "#fbbf24",
+      "priority": "1"
+    },
+    "CRITICAL": {
+      "label":    "CRITICAL",
+      "color":    "#dc2626",
+      "bg":       "#fee2e2",
+      "dot":      "#f87171",
+      "priority": "2"
+    },
+    "FRAUD RISK": {
+      "label":    "FRAUD RISK",
+      "color":    "#fca5a5",
+      "bg":       "#7f1d1d",
+      "dot":      "#ef4444",
+      "priority": "3"
+    }
+  },
+  "thresholds": {
+    "dpr_discrepancy": {
+      "FRAUD RISK": 30,
+      "CRITICAL":   15,
+      "MODERATE":    5
+    },
+    "ela_tampering": {
+      "FRAUD RISK": 0.70,
+      "CRITICAL":   0.45,
+      "MODERATE":   0.25
+    },
+    "ml_change_score": {
+      "FRAUD RISK": 0.50,
+      "CRITICAL":   0.30,
+      "MODERATE":   0.10
+    }
+  }
+}
