@@ -1,0 +1,93 @@
+{
+  "id": "PRJ-DME",
+  "project": "Delhi-Mumbai Expressway (Sohna Segment)",
+  "contractor": "L&T / NHAI",
+  "location": [
+    28.25,
+    76.92
+  ],
+  "bbox": [
+    76.9,
+    28.23,
+    76.95,
+    28.27
+  ],
+  "baseline_date": "2020-12-15",
+  "current_date": "2026-06-04",
+  "baseline_scene_id": "S2B_43RFM_20201215_1_L2A",
+  "current_scene_id": "S2A_43RFM_20260604_0_L2A",
+  "baseline_cloud_cover": 11.408921,
+  "current_cloud_cover": 3.045912,
+  "landcover_baseline_pct": {
+    "water": 0.0,
+    "vegetation": 71.7,
+    "bare_soil": 5.62,
+    "built_up": 3.28,
+    "other": 19.4
+  },
+  "landcover_current_pct": {
+    "water": 0.0,
+    "vegetation": 68.02,
+    "bare_soil": 26.38,
+    "built_up": 5.39,
+    "other": 0.21
+  },
+  "transitions_px": {
+    "vegetation_to_built_up": 3436,
+    "vegetation_to_bare_soil": 47401,
+    "bare_soil_to_built_up": 2654,
+    "built_up_to_vegetation": 2783,
+    "total_aoi_px": 180362
+  },
+  "construction_activity_pct": 17.35,
+  "satellite_actual_pct": 19.32,
+  "reported_progress_pct": 67.0,
+  "discrepancy_pct": 47.68,
+  "status": "GHOST_ALERT",
+  "dpr_record": {
+    "project_id": "PRJ-DME",
+    "reported_progress_pct": 67.0,
+    "source": "PRJ-DME_dpr.pdf",
+    "source_url": null,
+    "reported_date": "2026-06-05",
+    "ingested_at": "2026-06-05T19:32:29.900247+00:00",
+    "raw_excerpt": "- Jun 2026: 67%"
+  },
+  "ml_change_detection": null,
+  "confidence": 0.819,
+  "quality": {
+    "phase": "1",
+    "cloud_mask": {
+      "baseline_pct_masked": 0.0,
+      "current_pct_masked": 0.0,
+      "baseline_usable": true,
+      "current_usable": true
+    },
+    "temporal_consistency": {
+      "scenes_fetched": 5,
+      "scenes_usable": 5,
+      "confidence": 0.5849,
+      "adjusted_activity_pct": 19.32,
+      "reliability_score": 1.0,
+      "note": "Low confidence: change may be cloud/seasonal artefact."
+    },
+    "seasonal_normalization": {
+      "season_matched": false,
+      "season_delta_days": 170,
+      "warning": "Season mismatch: baseline is winter (Dec\u2013Feb), current is monsoon (Jun\u2013Sep) (170 days apart). NDVI changes may reflect seasonal vegetation cycles rather than construction activity."
+    }
+  },
+  "evidence": "Sentinel-2 multi-index classification (cloud-masked, season-corrected, 5 temporal scenes): 6090 px built-up emergence, 47401 px vegetation cleared, 2783 px reverted, between 2020-12-15 and 2026-06-04. \u26a0 Season mismatch: baseline is winter (Dec\u2013Feb), current is monsoon (Jun\u2013Sep) (170 days apart). NDVI changes may reflect seasonal vegetation cycles rather than construction activity.",
+  "images": {
+    "rgb_baseline": "/sat/PRJ-DME_rgb_baseline.png",
+    "rgb_current": "/sat/PRJ-DME_rgb_current.png",
+    "ndvi_baseline": "/sat/PRJ-DME_ndvi_baseline.png",
+    "ndvi_current": "/sat/PRJ-DME_ndvi_current.png",
+    "landcover_baseline": "/sat/PRJ-DME_landcover_baseline.png",
+    "landcover_current": "/sat/PRJ-DME_landcover_current.png",
+    "transitions": "/sat/PRJ-DME_transitions.png"
+  },
+  "data_source": "Sentinel-2 L2A via element84 earth-search STAC",
+  "method": "Multi-index land-cover classification (NDVI/NDBI/NDWI/BSI) + bi-temporal transition analysis [Phase 1: cloud-masked, multi-temporal, season-normalised]",
+  "scanned_at": "2026-06-06T07:06:42.291205+00:00"
+}

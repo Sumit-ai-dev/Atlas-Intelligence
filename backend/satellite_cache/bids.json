@@ -1,0 +1,125 @@
+{
+  "TND-DRR7": [
+    {
+      "bid_id": "BID-6F12098C",
+      "tender_id": "TND-DRR7",
+      "contractor_id": "CONT-ARV",
+      "contractor_name": "Aarav Infrastructure Pvt Ltd",
+      "bid_amount_cr": 940.0,
+      "ncri_score": 22,
+      "anomaly_score": 100,
+      "flags": [
+        "ABNORMALLY_LOW_BID",
+        "BLACKLISTED",
+        "NEW_ENTITY",
+        "ACTIVE_VIOLATION"
+      ],
+      "eligibility": "REJECTED",
+      "active_violation_count": 3,
+      "is_new_entity": true,
+      "years_of_experience": 2,
+      "submitted_at": "2026-06-04T20:34:06.359741Z"
+    },
+    {
+      "bid_id": "BID-D8A0BE6F",
+      "tender_id": "TND-DRR7",
+      "contractor_id": "CONT-LNT",
+      "contractor_name": "L&T Construction Ltd",
+      "bid_amount_cr": 1050.0,
+      "ncri_score": 81,
+      "anomaly_score": 20,
+      "flags": [
+        "SUSPICIOUSLY_LOW"
+      ],
+      "eligibility": "ELIGIBLE",
+      "active_violation_count": 0,
+      "is_new_entity": false,
+      "years_of_experience": 35,
+      "submitted_at": "2026-06-04T20:34:06.359977Z"
+    },
+    {
+      "bid_id": "BID-18A63980",
+      "tender_id": "TND-DRR7",
+      "contractor_id": "CONT-NCC",
+      "contractor_name": "NCC Limited",
+      "bid_amount_cr": 1090.0,
+      "ncri_score": 74,
+      "anomaly_score": 15,
+      "flags": [
+        "ACTIVE_VIOLATION"
+      ],
+      "eligibility": "ELIGIBLE",
+      "active_violation_count": 1,
+      "is_new_entity": false,
+      "years_of_experience": 28,
+      "submitted_at": "2026-06-04T20:34:06.360162Z"
+    }
+  ],
+  "TND-MCR2": [
+    {
+      "bid_id": "BID-ECCF006D",
+      "tender_id": "TND-MCR2",
+      "contractor_id": "CONT-DBL",
+      "contractor_name": "Dilip Buildcon Ltd",
+      "bid_amount_cr": 2240.0,
+      "ncri_score": 67,
+      "anomaly_score": 40,
+      "flags": [
+        "SUSPICIOUSLY_LOW",
+        "ACTIVE_VIOLATION"
+      ],
+      "eligibility": "REJECTED",
+      "active_violation_count": 2,
+      "is_new_entity": false,
+      "years_of_experience": 22,
+      "submitted_at": "2026-06-04T20:34:06.360862Z"
+    },
+    {
+      "bid_id": "BID-31318960",
+      "tender_id": "TND-MCR2",
+      "contractor_id": "CONT-SPC",
+      "contractor_name": "Shapoorji Pallonji Engineering",
+      "bid_amount_cr": 2790.0,
+      "ncri_score": 92,
+      "anomaly_score": 0,
+      "flags": [],
+      "eligibility": "ELIGIBLE",
+      "active_violation_count": 0,
+      "is_new_entity": false,
+      "years_of_experience": 45,
+      "submitted_at": "2026-06-04T20:34:06.361101Z"
+    }
+  ],
+  "TND-PNB4": [
+    {
+      "bid_id": "BID-A15C9EAB",
+      "tender_id": "TND-PNB4",
+      "contractor_id": "CONT-GAY",
+      "contractor_name": "Gayatri Projects Ltd",
+      "bid_amount_cr": 318.0,
+      "ncri_score": 78,
+      "anomaly_score": 10,
+      "flags": [],
+      "eligibility": "ELIGIBLE",
+      "active_violation_count": 0,
+      "is_new_entity": false,
+      "years_of_experience": 18,
+      "submitted_at": "2026-06-04T20:34:06.361450Z"
+    },
+    {
+      "bid_id": "BID-3A878E3F",
+      "tender_id": "TND-PNB4",
+      "contractor_id": "CONT-PNC",
+      "contractor_name": "PNC Infratech Ltd",
+      "bid_amount_cr": 326.0,
+      "ncri_score": 84,
+      "anomaly_score": 0,
+      "flags": [],
+      "eligibility": "ELIGIBLE",
+      "active_violation_count": 0,
+      "is_new_entity": false,
+      "years_of_experience": 20,
+      "submitted_at": "2026-06-04T20:34:06.361664Z"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_comment": "Atlas Assurance Satellite Analysis Configuration — edit here, never in code",
+
+  "stac": {
+    "url": "https://earth-search.aws.element84.com/v1",
+    "collection": "sentinel-2-l2a",
+    "primary_scene": {
+      "days_window": 90,
+      "max_cloud_pct": 15,
+      "max_items": 30
+    },
+    "temporal_stack": {
+      "months_back": 5,
+      "max_cloud_pct": 30,
+      "max_items_search": 50
+    }
+  },
+
+  "cloud_masking": {
+    "min_valid_pixel_pct": 50,
+    "bad_scl_classes": [0, 1, 3, 8, 9, 10, 11],
+    "_scl_legend": {
+      "0": "NO_DATA",
+      "1": "SATURATED",
+      "3": "SHADOW",
+      "8": "CLOUD_MEDIUM_PROB",
+      "9": "CLOUD_HIGH_PROB",
+      "10": "THIN_CIRRUS",
+      "11": "SNOW_ICE"
+    }
+  },
+
+  "temporal_consistency": {
+    "consistency_threshold": 0.60,
+    "change_pixel_ndvi_delta": 0.35,
+    "max_reliability_scenes": 5,
+    "single_scene_reliability": 0.50
+  },
+
+  "seasonal_normalization": {
+    "season_window_days": 45,
+    "mismatch_confidence_penalty": 0.85
+  },
+
+  "land_cover_thresholds": {
+    "ndwi_water": 0.20,
+    "ndvi_vegetation": 0.30,
+    "ndvi_built_max": 0.25,
+    "ndbi_built_min": 0.0,
+    "bsi_bare_min": 0.05,
+    "ndvi_bare_max": 0.15
+  },
+
+  "alert_thresholds": {
+    "ghost_alert_pct": 30,
+    "ghost_alert_pct_high_confidence": 25,
+    "lag_warning_pct": 15,
+    "lag_warning_pct_high_confidence": 12,
+    "unreported_progress_pct": -15,
+    "high_confidence_temporal_min": 0.60
+  },
+
+  "confidence": {
+    "max_cloud_penalty_pct": 200
+  }
+}

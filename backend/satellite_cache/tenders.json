@@ -1,0 +1,44 @@
+{
+  "TND-DRR7": {
+    "tender_id": "TND-DRR7",
+    "project_name": "Delhi Ring Road - Section 7 (Mahipalpur to Dwarka)",
+    "location": "New Delhi, NCR",
+    "estimated_value_cr": 1200.0,
+    "min_ncri_required": 60,
+    "deadline": "2026-06-08",
+    "description": "6-lane elevated expressway connecting Mahipalpur to Dwarka Sector 21. Includes 3 flyovers, 2 underpasses, and full utility relocation. Funded under NHDP Phase VII.",
+    "status": "AWARDED",
+    "awarded_to": "CONT-LNT",
+    "created_at": "2026-06-04T20:34:06.355698Z",
+    "awarded_at": "2026-06-06T10:55:59.802859Z",
+    "awarded_bid_cr": 1050.0,
+    "awarded_contractor_name": "L&T Construction Ltd"
+  },
+  "TND-MCR2": {
+    "tender_id": "TND-MCR2",
+    "project_name": "Mumbai Coastal Road Extension - Phase 2 (Worli to Bandra)",
+    "location": "Mumbai, Maharashtra",
+    "estimated_value_cr": 2800.0,
+    "min_ncri_required": 70,
+    "deadline": "2026-06-12",
+    "description": "8-lane coastal arterial road with twin tunnels and marine interchanges. MMRDA managed. Includes environment-sensitive marine wall reinforcement.",
+    "status": "OPEN",
+    "awarded_to": null,
+    "created_at": "2026-06-04T20:34:06.360342Z"
+  },
+  "TND-PNB4": {
+    "tender_id": "TND-PNB4",
+    "project_name": "Pune Bypass NH-48 - Package 4 (Urse to Talegaon)",
+    "location": "Pune, Maharashtra",
+    "estimated_value_cr": 340.0,
+    "min_ncri_required": 50,
+    "deadline": "2026-05-31",
+    "description": "4-lane bypass reducing Pune city traffic. Includes 2 ROBs and toll plaza construction. MoRTH funded.",
+    "status": "AWARDED",
+    "awarded_to": "CONT-GAY",
+    "created_at": "2026-06-04T20:34:06.361301Z",
+    "awarded_at": "2026-06-04T20:34:06.361899Z",
+    "awarded_bid_cr": 318.0,
+    "awarded_contractor_name": "Gayatri Projects Ltd"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "PRJ-DHL",
+  "project": "Dholera Smart City Activation Area",
+  "contractor": "DICDL",
+  "location": [
+    22.213,
+    72.218
+  ],
+  "bbox": [
+    72.19,
+    22.19,
+    72.24,
+    22.24
+  ],
+  "baseline_date": "2021-01-22",
+  "current_date": "2026-05-26",
+  "baseline_scene_id": "S2A_42QZK_20210122_0_L2A",
+  "current_scene_id": "S2C_42QZK_20260526_0_L2A",
+  "baseline_cloud_cover": 0.198622,
+  "current_cloud_cover": 7.929758,
+  "landcover_baseline_pct": {
+    "water": 2.34,
+    "vegetation": 14.3,
+    "bare_soil": 11.91,
+    "built_up": 69.83,
+    "other": 1.62
+  },
+  "landcover_current_pct": {
+    "water": 1.18,
+    "vegetation": 2.98,
+    "bare_soil": 7.39,
+    "built_up": 88.33,
+    "other": 0.12
+  },
+  "transitions_px": {
+    "vegetation_to_built_up": 26945,
+    "vegetation_to_bare_soil": 9439,
+    "bare_soil_to_built_up": 31168,
+    "built_up_to_vegetation": 1944,
+    "total_aoi_px": 292622
+  },
+  "construction_activity_pct": 15.48,
+  "satellite_actual_pct": 28.8,
+  "reported_progress_pct": 85.0,
+  "discrepancy_pct": 56.2,
+  "status": "GHOST_ALERT",
+  "dpr_record": {
+    "project_id": "PRJ-DHL",
+    "reported_progress_pct": 85.0,
+    "source": "DICDL_May2026_Activation_Progress.pdf",
+    "source_url": null,
+    "reported_date": "2026-05-26",
+    "ingested_at": "2026-06-06T07:08:17.059147+00:00",
+    "raw_excerpt": "Overall Physical Progress: 85%"
+  },
+  "ml_change_detection": null,
+  "confidence": 0.82,
+  "quality": {
+    "phase": "1",
+    "cloud_mask": {
+      "baseline_pct_masked": 0.45,
+      "current_pct_masked": 0.0,
+      "baseline_usable": true,
+      "current_usable": true
+    },
+    "temporal_consistency": {
+      "scenes_fetched": 4,
+      "scenes_usable": 3,
+      "confidence": 0.6706,
+      "adjusted_activity_pct": 28.8,
+      "reliability_score": 0.971,
+      "note": "High confidence: change is persistent across multiple scenes."
+    },
+    "seasonal_normalization": {
+      "season_matched": false,
+      "season_delta_days": 124,
+      "warning": "Season mismatch: baseline is winter (Dec\u2013Feb), current is pre-monsoon (Mar\u2013May) (124 days apart). NDVI changes may reflect seasonal vegetation cycles rather than construction activity."
+    }
+  },
+  "evidence": "Sentinel-2 multi-index classification (cloud-masked, season-corrected, 3 temporal scenes): 58113 px built-up emergence, 9439 px vegetation cleared, 1944 px reverted, between 2021-01-22 and 2026-05-26. \u26a0 Season mismatch: baseline is winter (Dec\u2013Feb), current is pre-monsoon (Mar\u2013May) (124 days apart). NDVI changes may reflect seasonal vegetation cycles rather than construction activity.",
+  "images": {
+    "rgb_baseline": "/sat/PRJ-DHL_rgb_baseline.png",
+    "rgb_current": "/sat/PRJ-DHL_rgb_current.png",
+    "ndvi_baseline": "/sat/PRJ-DHL_ndvi_baseline.png",
+    "ndvi_current": "/sat/PRJ-DHL_ndvi_current.png",
+    "landcover_baseline": "/sat/PRJ-DHL_landcover_baseline.png",
+    "landcover_current": "/sat/PRJ-DHL_landcover_current.png",
+    "transitions": "/sat/PRJ-DHL_transitions.png"
+  },
+  "data_source": "Sentinel-2 L2A via element84 earth-search STAC",
+  "method": "Multi-index land-cover classification (NDVI/NDBI/NDWI/BSI) + bi-temporal transition analysis [Phase 1: cloud-masked, multi-temporal, season-normalised]",
+  "scanned_at": "2026-06-06T07:23:38.184269+00:00"
+}
