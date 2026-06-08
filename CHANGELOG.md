@@ -11,3 +11,4 @@
 - 2026-06-08T21:26:07+05:30: Update chart colors by Sumit-ai-dev
 - 2026-06-08T22:35:10+05:30: Fix websocket connection by Sumit-ai-dev
 - 2026-06-09T00:11:29+05:30: Update color palette by Sumit-ai-dev
+- 2026-06-09T01:30:29+05:30: Fix bug in satellite data fetching by SakshiKasat18
