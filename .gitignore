@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large models and environments
+backend/models/
+backend/venv/
+external_modules/
+*.pt
+!backend/construction_safety.pt
+!backend/yolov8m.pt
+!yolov8n.pt
+!external_modules/leaflet-dashboard/
+!external_modules/xgboost-survival-embeddings/
+
+# Allow environment files for team collaboration
+!.env
+!**/.env
+
+# Build artifacts
+*.jpg
+*.pdf
+!backend/samples/*.jpg
+!backend/samples/*.pdf
+test_output.jpg
+temp_ela.jpg
+
+# Satellite cache — commit JSON + PNG so demo works offline
+!backend/satellite_cache/*.png
+!backend/satellite_cache/*.json
+backend/.env
+
+backend/server.log
+backend/cppp_historical_training_data.json

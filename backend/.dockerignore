@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+.DS_Store
+Thumbs.db
+
+# Large models and environments
+models/
+external_modules/
+*.pt
+!construction_safety.pt
+!yolov8m.pt
+!yolov8n.pt
+
+# Build artifacts
+*.jpg
+*.pdf
+!samples/*.jpg
+!samples/*.pdf
+test_output.jpg
+temp_ela.jpg
+
+# DB and large JSON
+satellite_cache/*.png
+satellite_cache/*.json
+server.log
+cppp_historical_training_data.json
+.git/
