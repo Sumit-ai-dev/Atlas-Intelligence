@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "version": "1.0",
+    "description": "Live project registry. Seeded from satellite.py PROJECTS dict. New projects added via POST /projects/register. Do NOT edit manually during runtime — use the API."
+  },
+  "projects": {
+    "PRJ-NMA": {
+      "id": "PRJ-NMA",
+      "name": "Navi Mumbai International Airport",
+      "contractor": "Adani Airport Holdings",
+      "location": [
+        18.994,
+        73.07
+      ],
+      "bbox": [
+        73.045,
+        18.975,
+        73.095,
+        19.015
+      ],
+      "baseline_date": "2020-12-15",
+      "started": "2018-08-01",
+      "registered_at": "2018-08-01T00:00:00Z"
+    },
+    "PRJ-DHL": {
+      "id": "PRJ-DHL",
+      "name": "Dholera Smart City Activation Area",
+      "contractor": "DICDL",
+      "location": [
+        22.213,
+        72.218
+      ],
+      "bbox": [
+        72.19,
+        22.19,
+        72.24,
+        22.24
+      ],
+      "baseline_date": "2020-12-15",
+      "started": "2018-01-01",
+      "registered_at": "2018-01-01T00:00:00Z"
+    },
+    "PRJ-DME": {
+      "id": "PRJ-DME",
+      "name": "Delhi-Mumbai Expressway (Sohna Segment)",
+      "contractor": "L&T / NHAI",
+      "location": [
+        28.25,
+        76.92
+      ],
+      "bbox": [
+        76.9,
+        28.23,
+        76.95,
+        28.27
+      ],
+      "baseline_date": "2020-12-15",
+      "started": "2019-03-01",
+      "registered_at": "2019-03-01T00:00:00Z"
+    }
+  }
+}

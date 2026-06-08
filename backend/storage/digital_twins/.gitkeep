@@ -1,0 +1,4 @@
+# digital_twins directory
+# This directory stores per-project assurance cycle history.
+# Files are created at runtime by digital_twin_store.py (Phase 1).
+# Format: {project_id}.json — list of cycle records.
