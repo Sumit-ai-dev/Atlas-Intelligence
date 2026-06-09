@@ -24,3 +24,4 @@
 - 2026-06-09T16:53:44+05:30: Fix chart tooltip by SakshiKasat18
 - 2026-06-09T18:23:38+05:30: Fix modal z-index by SakshiKasat18
 - 2026-06-09T19:40:21+05:30: Fix layout shift by Sumit-ai-dev
+- 2026-06-09T21:09:39+05:30: Update environment variables by SakshiKasat18
