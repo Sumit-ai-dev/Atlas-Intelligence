@@ -31,3 +31,4 @@
 - 2026-06-10T03:17:41+05:30: Refactor policy loader by SakshiKasat18
 - 2026-06-10T04:59:49+05:30: Add dark mode support by Sumit-ai-dev
 - 2026-06-10T06:18:50+05:30: Fix memory leak by Sumit-ai-dev
+- 2026-06-10T07:32:08+05:30: Add caching layer by SakshiKasat18
