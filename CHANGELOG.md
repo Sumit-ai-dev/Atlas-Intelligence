@@ -61,3 +61,4 @@
 - 2026-06-12T00:15:10+05:30: Refactor geocoder by SakshiKasat18
 - 2026-06-12T01:38:26+05:30: Refactor forensics module by SakshiKasat18
 - 2026-06-12T03:00:56+05:30: Fix image aspect ratio by SakshiKasat18
+- 2026-06-12T04:50:45+05:30: Update API response format by Sumit-ai-dev
