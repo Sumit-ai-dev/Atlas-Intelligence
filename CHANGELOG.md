@@ -74,3 +74,4 @@
 - 2026-06-12T19:30:24+05:30: Update build config by SakshiKasat18
 - 2026-06-12T21:15:29+05:30: Add comments to complex logic by SakshiKasat18
 - 2026-06-12T22:44:07+05:30: Fix date formatting by SakshiKasat18
+- 2026-06-13T00:03:34+05:30: Update deployment script by SakshiKasat18
