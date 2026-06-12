@@ -63,3 +63,4 @@
 - 2026-06-12T03:00:56+05:30: Fix image aspect ratio by SakshiKasat18
 - 2026-06-12T04:50:45+05:30: Update API response format by Sumit-ai-dev
 - 2026-06-12T06:01:42+05:30: Update dependency versions by SakshiKasat18
+- 2026-06-12T07:34:02+05:30: Fix table sorting by Sumit-ai-dev
