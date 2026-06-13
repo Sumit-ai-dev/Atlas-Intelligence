@@ -42,7 +42,7 @@ Current infrastructure oversight has four structural gaps:
 
 ```mermaid
 graph TB
-    subgraph Client["Frontend — Next.js"]
+    subgraph Client["Frontend - Next.js"]
         UI[Executive Dashboard]
         DPRPage[DPR Validator]
         SatPage[Satellite View]
@@ -52,9 +52,9 @@ graph TB
         FraudPage[Fraud Analytics]
     end
 
-    subgraph Gateway["API Layer — FastAPI"]
-        API[REST API / main.py]
-        Docs[/docs — Swagger UI]
+    subgraph Gateway["API Layer - FastAPI"]
+        API[REST API]
+        Docs[Swagger UI]
     end
 
     subgraph Orchestration["Orchestrator"]
@@ -62,33 +62,33 @@ graph TB
     end
 
     subgraph Agents["Specialist Agents"]
-        Planning[Planning Agent\nDPR Extractor + RAG]
-        Verify[Verification Agent\nSatellite + Safety]
-        Invest[Investigation Agent\nCross-Evidence Correlator]
-        Gov[Governance Agent\nPolicy + Risk Engine]
-        Proc[Procurement Agent\nNCRI + XGBoost]
+        Planning[Planning Agent]
+        Verify[Verification Agent]
+        Invest[Investigation Agent]
+        Gov[Governance Agent]
+        Proc[Procurement Agent]
     end
 
     subgraph Models["ML Models"]
-        YOLO[YOLOv8\nPPE Detection]
-        CF[ChangeFormerV6\nSatellite Change]
-        XGB[XGBoost\nContractor Risk]
-        ELA[Error Level Analysis\nImage Forensics]
-        LLM[Mistral 7B\nReasoning + Narrative]
-        OCR[Tesseract OCR\nDocument Parsing]
+        YOLO[YOLOv8 - PPE Detection]
+        CF[ChangeFormerV6 - Satellite]
+        XGB[XGBoost - Contractor Risk]
+        ELA[ELA - Image Forensics]
+        LLM[Mistral 7B - Reasoning]
+        OCR[Tesseract OCR]
     end
 
     subgraph Storage["Storage"]
-        Chroma[(ChromaDB\nVector Store)]
-        Policies[(Policy JSONs\nRules + Weights)]
-        Cache[(Satellite Cache\nTemporal Snapshots)]
-        Files[(File Store\nUploads + Reports)]
+        Chroma[(ChromaDB Vector Store)]
+        Policies[(Policy JSONs)]
+        Cache[(Satellite Cache)]
+        Files[(File Store)]
     end
 
     subgraph Infra["Infrastructure"]
-        CR1[Cloud Run\nBackend]
-        CR2[Cloud Run\nFrontend]
-        CB[Cloud Build\nCI/CD]
+        CR1[Cloud Run - Backend]
+        CR2[Cloud Run - Frontend]
+        CB[Cloud Build - CI/CD]
     end
 
     UI --> API
